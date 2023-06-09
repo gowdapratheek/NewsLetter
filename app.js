@@ -34,7 +34,7 @@ app.post("/", function (req, res) {
   const url = "https://us17.api.mailchimp.com/3.0/lists/dc2fcd872f";
   const options = {
     method: "POST",
-    auth: "prathimailchimp:0614ce1a4ec7c270372a0e4157c4c820-us17",
+    auth: "prathimailchimp:265f7502497449310e46261ce293255e-us17",
   };
 
   const request = https.request(url, options, function (response) {
@@ -61,7 +61,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 // api Key
-// 0614ce1a4ec7c270372a0e4157c4c820-us17    https://<dc>.api.mailchimp.com/3.0/
+// 265f7502497449310e46261ce293255e-us17    https://<dc>.api.mailchimp.com/3.0/lists/
 
 // id
 // dc2fcd872f              https://us17.api.mailchimp.com/3.0/dc2fcd872f
